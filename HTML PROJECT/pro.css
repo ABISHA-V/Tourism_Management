@@ -1,0 +1,34 @@
+
+  .heading {
+    color:rgb(230, 65, 10);
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+  }
+  .card-container {
+    background-color:white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+  }
+  .card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .card-description {
+    color:#110c4b;
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+  .card-text-container {
+    padding: 10px;
+    background-color: aquamarine;
+    margin:10px
+  }
+    .button{
+        text-align: center;
+    }
+    

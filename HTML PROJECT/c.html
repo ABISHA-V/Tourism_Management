@@ -1,0 +1,34 @@
+
+  <html>
+<head></head>
+<body>
+<link rel="stylesheet" href="c.css">
+<form action="action_page.php">
+<div class="container">
+    <h1>BOOK MY TRIP</h1>
+    <p><b>PLEASE FILL THIS FORM TO BOOK YOUR TRIP.</b></p>
+    <hr>
+
+    <label for="name"><b>NAME</b></label><br>
+    <input type="text" placeholder="Name" name="name" id="name" required><br>
+
+    <label for="psw"><b>DESTINATION</b></label><br>
+    <input type="text" placeholder="Enter your destination" name="des" id="des" required><br>
+
+
+    <label for="date"><b>DATE</b></label><br>
+    <input type="date" placeholder="Date" name="date" id="date" required><br><br>
+
+    <label><b>NO.OF PERSONS</b></label><br>
+      <input type="number" min="0" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"placeholder="NO. OF PERSONS" required><br><br>
+      <label for="e"><b>EMAIL</b></label><br>
+      <input type="email" placeholder="Email" name="e" id="e" required>
+    <hr>
+
+    <button type="submit" class="registerbtn"><a href="l.html">BOOK NOW</a></button>
+  </div>
+
+  
+</form>
+</body>
+</html>

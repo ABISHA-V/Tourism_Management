@@ -1,0 +1,20 @@
+h1
+{
+text-align:center;
+font-size: 90px;
+font-style: italic;
+color:rgb(238, 235, 234);
+}
+body
+{
+  background-image:url("https://media.tenor.com/MiiSaoOtKHgAAAAC/black-background.gif");
+  background-size: cover;
+}
+p
+{
+text-align:center;
+font-size: 40px;
+padding-top: 15%;
+font-style: italic;
+color:rgb(223, 235, 45);
+}
